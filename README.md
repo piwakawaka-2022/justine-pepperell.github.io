@@ -1,2 +1,2 @@
-# justine.pepperell.github.io
+# justine-pepperell.github.io
 EDA Blog 
