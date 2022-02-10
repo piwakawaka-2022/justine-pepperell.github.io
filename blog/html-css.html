@@ -2,16 +2,21 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../styles/main.css" rel="stylesheet" type="text/css">
     <title> Sprint 1: .class vs #id </title>
   </head>
 
 <body>
-<h1> class vs #id</h1>
+<h1> .class vs #id</h1>
 
-<h2>Analogy: Your webpage is like houses on a street </h2>
+<h2>Analogy </h2>
 <p>
-  Imagine your website is a street. The street contains 100 houses. Each house has 1 unique attribute but may share various attributes with the other houses on the street. Each house has one #id its house number. 
+  Imagine your website is a new subdivison that will one day contain 1000 houses but for now will just have 20. You have been asked to choose 5 roof colours, 5 exterior wall colours, and 5 door colours that can be used across the subdivison.
+  You decided that you like the combination of a red roof, white exterior, and a blue door. It seems likely that more than one house will eventually use this colour scheme so you call it Noddy and specifiy its attributes for future reference. 
+  When creating a CSS style sheet for a website, this would be an opportunity to create a class. You continue creating colour schemes based on possible colour combinations.  
+ 
   In contrast, 50/100 houses have a grey roof. Thus, grey roof is a perfect candidate for a class. 25/100 houses have a white exterior thus this will also suit being a class.  5/100 houses (numbers 1, 5, 7, 15) have a grey roof, white exterior, and a red door. Three classes are applied to these houses. 
   There is only one house on the street with a purple roof (number 22); however, there’s no reason other roofs can’t be repainted purple in the future so although this attribute is unique to house number 22, the attribute of purple roof should be a .class not a #id. 
 </p>
@@ -21,7 +26,7 @@
   Best practice If a house painter could be done painting in an instant, like CSS can be with styling elements on an html document, they would be grateful for classes - although less available overall and a limit on classes per house would be preferable in a new subdivision where 500 homes need styling within a limited budget and short-timeframe (much like a data rich web page or perhaps on a small blog created by a noobie).  
   </p>
   
- <p><strong>Tip:</strong>if you don’t need a class, don’t use one. And if you use a #id, make sure you only use one per webpage. Unlike a street, where every house needs a number, not using a #id won’t ruin your webpage. 
+ <p><strong>Best practice tip:</strong>if you don’t need a class, don’t use one. And if you use a #id, make sure you only use one per webpage and for one element such as your site's header. Unlike a street, where every house needs a number, not using a #id won’t ruin your webpage. 
  </p>
 
 
