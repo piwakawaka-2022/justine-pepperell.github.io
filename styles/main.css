@@ -1,6 +1,13 @@
 
+#site-header {
+  font-size: 100px;
+  text-shadow: 2px 2px #2f00ff;
+  border: 5px solid black;
+}
+
+
 body {
-  background-color: blue (253, 252, 250);
+  background-color: bisque (241, 241, 247) (253, 252, 250);
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -8,6 +15,33 @@ h1 {
   font-size: 100px;
   border: 5px solid black;
 }
+/* nav bar styling starts below */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+/* nav bar styling ends*/
+
 
 h2 {
   font-size: 50px;
@@ -18,6 +52,7 @@ p {
   font-size: large;
 }
 
+
 nav {
   font-weight: bold;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -25,11 +60,13 @@ nav {
 }
 
 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 50%;
-  height: auto;
-  float: left; ;
-  
+  height: auto; 
 }
+
+.value {
+ color: blue;
+ font-weight: bold;
+}
+
+
