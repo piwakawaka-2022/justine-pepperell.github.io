@@ -1,8 +1,19 @@
+Header {
+background-color: white;
+}
+
+footer {
+background-color: white;
+border: 5px solid black;
+font-size: 25px;
+font-family:Arial, Helvetica, sans-serif;
+}
 
 #site-header {
   font-size: 100px;
-  text-shadow: 2px 2px #2f00ff;
   border: 5px solid black;
+  font-family:Arial, Helvetica, sans-serif;
+  text-shadow: blue
 }
 
 
