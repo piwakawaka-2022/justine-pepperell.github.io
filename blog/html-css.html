@@ -19,7 +19,65 @@
 </ul>
 </Header>
 
-<h2> Best practice: .class & #id</h2>
+<h2>Intro/context</h2>
+
+<p> W3 Schools, provides the following explaination of what CSS is within the process of web development, </p>
+    
+   <p> "Cascading Style Sheets (CSS) is used to format the layout of a webpage after the structure has been defined using html.
+    With CSS, you can control the color, font, the size of text, the spacing between elements, how elements are positioned and laid out, what background images 
+    or background colors are to be used, different displays for different devices and screen sizes, and much more". </p>
+    
+    <p>And the following important tip,</p>
+    
+    <p> "Tip: The word cascading means that a style applied to a parent element will also apply to all children elements within the parent. 
+    So, if you set the color of the body text to "blue", all headings, paragraphs, and other text elements within the body will also get the same color 
+    (unless you specify something else)!" </p>
+    
+    <p> The first layer of styling you would apply to your html document is element styling, but as stated above 
+    - this only provides limited styling options because each element can only take one set of style instructions.
+    The syntax for basic element styling in css looks like this,</p>
+    
+   <div> <img src="..\images\img_element-selector.jpg" alt="CSS element selector code"> </div> 
+    
+    <p> The result of running the above syntax is that every element in your html doc tag with h1 will take the style of verdana font and the size of 20px. 
+    Element selectors help you keep your code simple by applying the styling to all elements on a page of that type. 
+    This means you only have to keep track of your styles for those elements in one place. </p>
+    
+    <p> Attribute selectors like .class and #id (there are many more) allow developers to layer additional styling (or remove it) across html code files.  
+    .class and #id are more advanced attribute selectors, which appear to create the same result across html files; 
+    however, there are clear best practies governing when to use them. </p>
+
+    
+    
+  <h3> Best practice when using .class and #id attribute selectors </h3>
+    
+  <h4> CSS #id attribule selector </h4>
+    
+   <P> The id selector selects the HTML elements that have an id attribute that matches the selector. 
+    As you cannot have more than one element with the same id in a HTML document, this selector allows you to select an individual element. 
+    This means that the styling on the selected element will be unique. 
+    If you think you will use this styling again on the same element somewhere else across you webpage, and a simple element selector won't do, 
+    consider creating a .class attribute selector. </P>
+    
+    <p> The syntax for creating a #id attribute selector looks like this:</p>
+    
+    <img src="..\images\img_id-syntax.jpg" alt="id syntax example">    
+    
+    <h4>CSS .class attribute selector </h4>
+    
+   <p> The HTML .class attribute is used to specify a class for an HTML element.
+    Multiple HTML elements can share the same class.
+    
+    <p> How to use it: The class attribute is often used to point to a class name in a style sheet. 
+    It can also be used by a JavaScript to access and manipulate elements with the specific class name (I don't know JavaScript yet). </p>
+    
+   </p>The syntax to create a .class attribute looks like this in your html file: </p>
+    
+    <img src="..\images\img_class-syntax.jpg" alt=".class syntax example">   
+
+    <img src="..\images\img_multiple-classes.jpg" alt="example of multiple classes applied to one attribute">
+
+
 <h3>Analogy </h3>
 <p> Imagine your website is a new subdivision. It will one day contain 1000 houses but for now it will just have 20. 
   You have been asked to choose 5 roof colours, 5 exterior wall colours, and 5 door colours that can be used across the subdivision. 
@@ -46,9 +104,11 @@
 I have created a .class for turning mid paragraph word blue - I am using this on words that describe my values. 
 Neither of these were necessary - and probably aren't asthetically pleasing but creating and applying them provided good practise. </p>
 
-<p> If you need to know how to create a classes or an id  <a href="https://www.w3schools.com/">Visit W3Schools.com!</a> </p>
+<h3>Websites and blogs that informed this blog</h3>
 
+<p> If you need to know how to create a classes or an id  <a href="https://www.w3schools.com/">Visit W3Schools.com!</a> </p>
 <p> If you want to read a cool analogy about the differences between .class & #id check out this <a href="https://css-tricks.com/the-difference-between-id-and-class/"> blog. </a> </p>
+<p> <a href="https://www.freecodecamp.org/news/use-css-selectors-to-style-webpage/"> How to use attribute selectors </a> </p>
 
 </body>
 </html>
