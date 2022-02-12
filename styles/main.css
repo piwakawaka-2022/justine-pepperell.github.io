@@ -1,11 +1,6 @@
 
 
-footer {
-background-color: white;
-border: 5px solid black;
-font-size: 25px;
-font-family:Arial, Helvetica, sans-serif;
-}
+
 
 #site-header {
   font-size: 100px;
@@ -28,7 +23,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: black;
 }
 
 li {
@@ -77,4 +72,13 @@ img {
  font-weight: bold;
 }
 
-
+.footer {
+  position:static;
+  bottom:0;
+  left:0;
+  width:100%;
+  height: 90px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: black;
+}
