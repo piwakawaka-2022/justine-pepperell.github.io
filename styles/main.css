@@ -38,9 +38,7 @@ margin-top: 0;
 .footer {
   position: static;
   bottom: 0;
-  padding-top: 20px;
-  padding-right:0;
-  padding-left: 80px;
+  padding: 10px;
   background-color:black;
   text-align: center;
 }
