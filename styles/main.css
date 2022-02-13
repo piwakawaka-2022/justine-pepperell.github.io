@@ -28,16 +28,18 @@ background-color:plum;
 }
 
 .kiaora {
-padding-right: 50%;
+border-style: solid; 
+border-color: blue;
+border-width: 10px;
+padding: 1cm;
+margin-top: 0;
 }
 
 .footer {
   position: static;
   bottom: 0;
-  margin-right:5px;
-  padding-top: 50px;
-  padding-right: 15%;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-right:0;
   padding-left: 80px;
   background-color:black;
   text-align: center;
@@ -109,8 +111,10 @@ nav {
 }
 
 img {
-  width: 50%;
-  height: auto; 
+  width: 100%;
+  height: auto;
+  margin-bottom: 0;
+  padding: 0; 
 }
 
 .value {
