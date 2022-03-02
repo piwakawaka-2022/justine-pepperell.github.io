@@ -1,3 +1,9 @@
+
+.syntax {
+  max-width: 50%;
+  max-height: 50%;
+ }
+
 .values-statement {
 padding: 10%;
 margin: 10%;
