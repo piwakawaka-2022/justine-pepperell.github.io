@@ -1,4 +1,13 @@
 
+.learningPlan2 {
+  padding-right: 10%;
+  padding-left: 10%;
+  border-style: solid;
+  background-color:rgb(241, 245, 10);
+  text-align:justify;
+  }
+
+
 .syntax {
   max-width: 20%;
   max-height: 20%;
@@ -25,7 +34,7 @@ border-width: 10%;
 margin-bottom: 0px;
 }
 
-.learning-plan {
+.learningPlan {
 padding-right: 10%;
 padding-left: 10%;
 border-style: solid;
