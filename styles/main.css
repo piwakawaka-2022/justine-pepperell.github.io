@@ -1,79 +1,7 @@
-
-.learningPlan2 {
-  padding-right: 10%;
-  padding-left: 10%;
-  border-style: solid;
-  background-color:rgb(241, 245, 10);
-  text-align:justify;
-  }
-
-
-.syntax {
-  max-width: 20%;
-  max-height: 20%;
- }
-
-.values-statement {
-padding: 10%;
-margin: 10%;
-border-style:groove;
-background-color:bisque;
-}
-
-
-
-.tech-content {
-padding-left: 15%;
-padding-right:15%;
-padding-top: 10%;
-padding-bottom: 10%;
-background-color: plum;
-border-color: yellow;
-border-style: solid;
-border-width: 10%;
-margin-bottom: 0px;
-}
-
-.learningPlan {
-padding-right: 10%;
-padding-left: 10%;
-border-style: solid;
-background-color:rgb(245, 163, 10);
-text-align:justify;
-}
-
-/*
-.kiaora {
-text-align: justify;
-padding: 10px
-}
-*/
-
-.footer {
-  position: static;
-  bottom: 0;
-  padding: 10px;
-  background-color:black;
-  text-align: center;
-}
-
-#site-header {
-  font-size: 100px;
-  font-family:Arial, Helvetica, sans-serif;
-  text-shadow: 2px 2px 8px #0004ff;
-}
-
-
 body {
-  background-color: bisque (241, 241, 247) (253, 252, 250);
-  padding: 50px;
-  font-family: Arial, Helvetica, sans-serif;
+font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-h1 {
-  font-size: 100px;
-  
-}
 /* nav bar styling starts below */
 ul {
   list-style-type: none;
@@ -83,9 +11,11 @@ ul {
   background-color:black;
 }
 
+
 li {
   float: left;
 }
+
 
 li a {
   display: block;
@@ -100,40 +30,4 @@ li a:hover {
   background-color: #111;
 }
 /* nav bar styling ends*/
-
-
-h2 {
-  font-size: 50px;
-}
-
-h3 {
-   font-size: 25px;
-   border: #111;
-}
-
-p {
-  font-size: medium;
-  text-align: justify;
-  font-size: large;
-}
-
-
-nav {
-  font-weight: bold;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: large;
-}
-
-img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 0;
-  padding: 0; 
-}
-
-.value {
- color: blue;
- font-weight: bold;
-}
-
 
