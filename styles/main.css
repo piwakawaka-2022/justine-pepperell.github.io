@@ -38,6 +38,11 @@ li a:hover {
 
 /* nav bar styling ends*/
 
+.value {
+ font-weight: bold;
+}
+
+
 .text_bubble {
 background-color: white;
 padding:2em;
