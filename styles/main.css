@@ -3,6 +3,12 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 background-color: antiquewhite;
 }
 
+header {
+  background-color: antiquewhite;
+
+  padding: 1em;
+}
+
 /* nav bar styling starts below */
 ul {
   list-style-type: none;
@@ -32,6 +38,19 @@ li a:hover {
 }
 
 /* nav bar styling ends*/
+
+.text_bubble {
+background-color: white;
+padding:2em;
+margin:2em;
+padding: 2em;
+}
+
+.text_box {
+ background-color: white;
+ padding:2em; 
+}
+
 
 
 .footer {

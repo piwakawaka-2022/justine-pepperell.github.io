@@ -9,65 +9,66 @@
   </head>
 
 <body>
-
-  <header>
-    <h1>EDA Student Blog &#128035 </h1>
-    <h2> <em> By Justine Pepperell</em> </h2>
-    <h4>Learning Motto: The best time to plant a tree was 20 years ago. The second best time is today. ~ Chinese Proverb ~ </h4>
-</header>
+  <main>
+    <header>
+      <h1>EDA Student Blog &#128035 </h1>
+      <h2> <em> By Justine Pepperell</em> </h2>
+      <h4>Learning Motto: The best time to plant a tree was 20 years ago. The second best time is today. ~ Chinese Proverb ~ </h4>
+    </header>
 
   <ul>
     <li><a href="\index.html">Home</a></li>
     <li><a href="\blog\identity-values.html">Reflections </a></li>
     <li><a href="\blog\learning-plan.html">Learning Plan</a></li>
-</ul>
-<div class="tech-content"> 
-  <H2>CSS Selectors: .class and #id </H2>
-  <p> The co-dependent relationship between HTML and CSS is evident in the application of type selectors and attribute selectors. Selectors create hooks for CSS to apply cascading style across an HTML document, which is then brought to life on your screen by your chosen web browser. 
-      The word cascading means that a style applied to a parent element will also apply to all children elements within the parent (remember html syntax trees?). So with type selection,  if you set the colour of the body text to "blue", all headings, paragraphs, 
-      and other text elements within the body will also get the same colour (unless you specify something else). 
-      You do this by creating attribute selectors, which allow you to assign an “attribute” to an element in your html document to be styled specifically by CSS to meet your design specifications. Image of the syntax is below: </p>
-      <div> <img src="..\images\img_element-selector.jpg" alt="CSS element selector code"> </div> 
-  <p> Although you can achieve some basic styling using simple type selectors (element tags), you will soon run out of formatting options and certainly won’t be able to create a modern looking website. 
-      The remainder of this blog will explore best practices when using the attribute selectors .Class and #id (just two of seven!).</p>
-  
-  <p>
-      .class is a powerful attribute selector which can be used to achieve complex styling because HTML elements can have more than one class assigned to them. 
-      Developers should be careful not to create too many novel classes per HTML document as this complexity isn’t considered best practice (careful you don’t create your own document language) and can make it hard for other developers to follow your code. 
-      Image of syntax below: </p>
+  </ul>
+
+<div class="blog_box"> 
+      <H2>CSS Selectors: .class and #id </H2>
+      <p> The co-dependent relationship between HTML and CSS is evident in the application of type selectors and attribute selectors. Selectors create hooks for CSS to apply cascading style across an HTML document, which is then brought to life on your screen by your chosen web browser. 
+          The word cascading means that a style applied to a parent element will also apply to all children elements within the parent (remember html syntax trees?). So with type selection,  if you set the colour of the body text to "blue", all headings, paragraphs, 
+          and other text elements within the body will also get the same colour (unless you specify something else). 
+          You do this by creating attribute selectors, which allow you to assign an “attribute” to an element in your html document to be styled specifically by CSS to meet your design specifications. Image of the syntax is below: </p>
+          <div> <img src="..\images\img_element-selector.jpg" alt="CSS element selector code"> </div> 
+      <p> Although you can achieve some basic styling using simple type selectors (element tags), you will soon run out of formatting options and certainly won’t be able to create a modern looking website. 
+          The remainder of this blog will explore best practices when using the attribute selectors .Class and #id (just two of seven!).</p>
       
-      <img src="..\images\img_class-syntax.jpg" alt=".class syntax example">   
-  
-      <img src="..\images\img_multiple-classes.jpg" alt="example of multiple classes applied to one attribute">
-  <p>  
-      #id is another attribute selector used in HTML documents. 
-      However, unlike .Class it can only be applied to one element (and one instance of that element) per html file. 
-      Image of syntax below: </p>
-      <img src="..\images\img_id-syntax.jpg" alt="id syntax example">  
-  
-  <p>I have read a lot about these two attribute selectors and the following analogy seems like a good one: .class is a barcode used by a store selling computers. It contains various information about the computer like colour, model, price, discount price while #id is the computer's serial number. It is unique to your product that you take home.  
-  You could also say, car (think of all its info: colour, make, model, vs its licence plate. I was thinking perhaps, you could also think of a subdivision - house style vs house number - I am not sure if that is as good as barcode vs serial number. 
-  Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p> 
-  
-  <p> What happens if you accidentally create two type selectors of equal importance? 
-      If you accidentally create two rules that have equal specificity, the one that comes last in the CSS is the one that will be used. </p>
-  
-  <h3>Who wins the styling battle: type, .class, or #ID?</h3>
-  <p>  Type: the most generic selector - always loses. .class: more specific than Type, .class wins over Type. 
-   #id: The most specific, beats Type & .class!</p>
-  
-   <p> For more info about creating .class and #id attribute selectors <a href="https://www.w3schools.com/">Visit W3Schools.com!</a> </p>
-   <p> If you want to read a cool analogy about the differences between .class & #id check out this <a href="https://css-tricks.com/the-difference-between-id-and-class/"> blog. </a> </p>
-   <p> More info on <a href="https://www.freecodecamp.org/news/use-css-selectors-to-style-webpage/"> how to use attribute selectors </a> </p>
-  
-  </div>
-  
-   <!--fixed footer below-->
+      <p>
+          .class is a powerful attribute selector which can be used to achieve complex styling because HTML elements can have more than one class assigned to them. 
+          Developers should be careful not to create too many novel classes per HTML document as this complexity isn’t considered best practice (careful you don’t create your own document language) and can make it hard for other developers to follow your code. 
+          Image of syntax below: </p>
+          
+          <img src="..\images\img_class-syntax.jpg" alt=".class syntax example">   
+      
+          <img src="..\images\img_multiple-classes.jpg" alt="example of multiple classes applied to one attribute">
+      <p>  
+          #id is another attribute selector used in HTML documents. 
+          However, unlike .Class it can only be applied to one element (and one instance of that element) per html file. 
+          Image of syntax below: </p>
+          <img src="..\images\img_id-syntax.jpg" alt="id syntax example">  
+      
+      <p>I have read a lot about these two attribute selectors and the following analogy seems like a good one: .class is a barcode used by a store selling computers. It contains various information about the computer like colour, model, price, discount price while #id is the computer's serial number. It is unique to your product that you take home.  
+      You could also say, car (think of all its info: colour, make, model, vs its licence plate. I was thinking perhaps, you could also think of a subdivision - house style vs house number - I am not sure if that is as good as barcode vs serial number. 
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p> 
+      
+      <p> What happens if you accidentally create two type selectors of equal importance? 
+          If you accidentally create two rules that have equal specificity, the one that comes last in the CSS is the one that will be used. </p>
+      
+      <h3>Who wins the styling battle: type, .class, or #ID?</h3>
+      <p>  Type: the most generic selector - always loses. .class: more specific than Type, .class wins over Type. 
+      #id: The most specific, beats Type & .class!</p>
+      
+      <p> For more info about creating .class and #id attribute selectors <a href="https://www.w3schools.com/">Visit W3Schools.com!</a> </p>
+      <p> If you want to read a cool analogy about the differences between .class & #id check out this <a href="https://css-tricks.com/the-difference-between-id-and-class/"> blog. </a> </p>
+      <p> More info on <a href="https://www.freecodecamp.org/news/use-css-selectors-to-style-webpage/"> how to use attribute selectors </a> </p>
+    
+    </div>
+    
+    <!--fixed footer below-->
     <div class="footer">
-     <p>Footer - information pending</p>
-   </div>
+        <p>Footer - information pending</p>
+    </div> 
    
    <!-- end of footer. -->
-
-</body>
+    </main>
+  </body>
 </html>
