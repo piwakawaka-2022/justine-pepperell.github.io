@@ -62,3 +62,26 @@ padding: 2em;
   padding: 3px;
   background-color: black;
   color: white;
+}
+
+
+.flex-container{
+  display: flex;
+
+  
+}
+
+.note1{
+background-color: blueviolet;
+margin: 5em;
+padding: 10em;
+border-radius: 70%;
+}
+
+.note2{
+background-color: aqua;
+margin: 5em;
+padding: 10em;
+border-radius: 70%;
+}
+
