@@ -3,6 +3,28 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 background-color: antiquewhite;
 }
 
+/* Mobile Portrait 320px */
+@media screen and (max-width: 320px) {
+  body {
+    background-color: blue;
+  }
+}
+
+/* tablet portrait 768px */
+@media screen and (max-width: 768px) {
+  body {
+    background-color: rgb(220, 92, 22);
+  }
+}
+
+/* desktop/laptop 1200px+ */
+@media only screen and (min-width: 1200px) {
+  body {
+    background-color: aqua;
+  }
+}
+
+
 header {
   background-color: antiquewhite;
   padding: 1em;
@@ -64,24 +86,4 @@ padding: 2em;
   color: white;
 }
 
-
-.flex-container{
-  display: flex;
-
-  
-}
-
-.note1{
-background-color: blueviolet;
-margin: 5em;
-padding: 10em;
-border-radius: 70%;
-}
-
-.note2{
-background-color: aqua;
-margin: 5em;
-padding: 10em;
-border-radius: 70%;
-}
 
